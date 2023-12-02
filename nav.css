@@ -1,0 +1,246 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-image: url(./image/pexels-tobias-bjrkli-2104151\ \(1\).jpg);
+  background-size: cover ;
+  height:800px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+  background-color: #0972bd;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px solid #07075e;
+  border-radius: 55px;
+  text-align: center;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 3%;
+  padding-left: 3%;
+}
+
+nav ul li a {
+  color: #fedefd;
+  text-decoration: none;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 50%;
+}
+
+/* div#demo img{
+    height: 50%;
+    width: 1460px;
+} */
+
+div.main_details {
+  border: 3px solid rgb(191, 207, 214);
+  padding: 10px;
+  margin-bottom: 0px;
+  background-color: #d5e9f2;
+  /* border-top: #666 solid 10px; */
+  border-radius: 15px;
+
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section#listing p {
+  color: #4bc15d;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+}
+
+/* Search Form */
+#search-form input[type="text"],
+#search-form input[type="number"] {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #9fdbed;
+  width: 45%;
+}
+
+#search-form button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #0972bd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+/* House Cards */
+.house-card {
+  background-color: #ecf8fa;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 5px;
+  
+}
+
+/* Carousel Images */
+.house-card .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 800px;
+  object-fit:contain ;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  
+
+
+
+/* Main Details */
+.house-card .main_details {
+  border: 1px solid rgb(2, 200, 200);
+  padding: 10px;
+
+}
+
+.house-card .main_details h3.price {
+  /* Style your price heading here */
+  color: #23c4d2;
+}
+
+/* Location */
+p.loc {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Property Type */
+p.type {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+
+.house-card .main_details a.detail {
+  /* Style your "View Details" link here */
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+  background-color: #d55e5e;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.house-card .main_details a.detail:hover {
+  background-color: #c10c0c;
+}
+
+/* Login and Registration Forms */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 img {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  border-radius: 30px;
+}
+div.detail_image img{
+  
+  padding: auto;
+  margin-bottom: 20px;
+  object-fit:fill;
+  height: 600px;
+  flex: 1;
+
+  
+}
+div.detail_image{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+div.pro_detail div p{
+    text-decoration: bold;
+}
+p.justified-text{
+  text-align: justify;
+}
+div#about {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgb(13, 14, 14);
+  color: #f2f2f2;
+  text-align: center; 
+ 
+}
+
+h5 {
+  margin: 0 auto; 
+
+ 
+}
+div.cards{
+  border: #a9aeb2 5px solid;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #a9aeb2;
+}
+
